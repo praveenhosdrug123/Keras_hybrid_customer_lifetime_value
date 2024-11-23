@@ -24,6 +24,8 @@ The model is evaluated using:
 - Mean Absolute Error (MAE)
 - R2 Coefficiecnt of Model Variation (R2)
 - Symmetric Mean Absolute Error Percentage (sMape)
+- Lorenz Curves
+- Mutual Gini
 
 ## Usage
 
