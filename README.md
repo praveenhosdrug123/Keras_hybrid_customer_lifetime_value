@@ -29,10 +29,27 @@ The model is evaluated using:
 
 ## Usage
 
-The notebook is self-contained with all required dependencies. To run:
+To run:
 1. Open the Jupyter notebook
 2. All required packages and implementations are included within
 3. Execute cells sequentially
+
+For Tensorflow dependencies please refer https://www.tensorflow.org/install/source#tested_build_configurations
+
+Dependencies note: When installing keras-hub, brief snapshot of automatic upgrade of tensorflow and tensorboard to 2.18.0. If this is not desired use a virtual environment for this piece of code. 
+
+Installing collected packages: tensorboard, tensorflow, tensorflow-text, keras-hub
+  Attempting uninstall: tensorboard
+    Found existing installation: tensorboard 2.17.1
+    Uninstalling tensorboard-2.17.1:
+      Successfully uninstalled tensorboard-2.17.1
+  Attempting uninstall: tensorflow
+    Found existing installation: tensorflow 2.17.1
+    Uninstalling tensorflow-2.17.1:
+      Successfully uninstalled tensorflow-2.17.1
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+tf-keras 2.17.0 requires tensorflow<2.18,>=2.17, but you have tensorflow 2.18.0 which is incompatible.
+Successfully installed keras-hub-0.17.0 tensorboard-2.18.0 tensorflow-2.18.0 tensorflow-text-2.18.0
 
 ## Model Comparison
 
