@@ -12,11 +12,6 @@ This repository contains a self-contained Jupyter notebook implementing a hybrid
 
 - **Efficient Processing of Irregular Data**: Combines principles from statistical ARMA based time series forecasting models with deep learning capabilities to handle non-linear relationships in customer purchase patterns
 
-- **Addressing Core Challenges**:
-  - Handles noisy, nonlinear and imbalanced customer behavior data
-  - Specifically designed for small-sized, irregular spaced time series data common in customer purchase patterns
-  - Addresses long-term dependencies in customer behavior
-
 ## Evaluation Metrics
 
 The model is evaluated using:
